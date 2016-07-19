@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.nathaliebritan.socialloginapp.MainActivity">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btnFacebookLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnGoogleLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/viewProfilePicture"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</LinearLayout>

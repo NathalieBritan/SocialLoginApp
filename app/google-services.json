@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1087977750101",
+    "project_id": "firebase-socialloginapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087977750101:android:0043dd7c5702925b",
+        "android_client_info": {
+          "package_name": "com.nathaliebritan.socialloginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087977750101-mfl1hv8km4da2gimcj02aoc69karnp0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nathaliebritan.socialloginapp",
+            "certificate_hash": "6131842D1463C49AFB0817894C384B504792004C"
+          }
+        },
+        {
+          "client_id": "1087977750101-agqaq0orlv9ug5kjoohm0lnesgf5oebq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhg6K4awOQ_3fkTrEEpD8wZlR6dwUEX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
