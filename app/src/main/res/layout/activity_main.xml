@@ -7,7 +7,7 @@
     tools:context="com.nathaliebritan.socialloginapp.MainActivity">
 
     <com.facebook.login.widget.LoginButton
-        android:id="@+id/btnFacebookLogin"
+        android:id="@+id/btn_facebook_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -15,16 +15,24 @@
         android:layout_gravity="center_horizontal"/>
 
     <com.google.android.gms.common.SignInButton
-        android:id="@+id/btnGoogleLogin"
+        android:id="@+id/btn_google_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:layout_gravity="center_horizontal"/>
 
     <com.facebook.login.widget.ProfilePictureView
-        android:id="@+id/viewProfilePicture"
+        android:id="@+id/view_profile_picture"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_margin="15dp"
+        android:layout_gravity="end"/>
 </LinearLayout>
