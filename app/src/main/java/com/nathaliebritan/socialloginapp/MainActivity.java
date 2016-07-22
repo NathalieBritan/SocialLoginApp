@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity  implements GoogleApiClient.
                 Profile profile = Profile.getCurrentProfile();
                 SharedPreferences.Editor editor = MainActivity.mSharedPreferences.edit();
                 editor.putBoolean(MainActivity.IS_SIGNIN, true);
-                editor.putString(USER_ID,profile.getId());
+                editor.putString(USER_ID, profile.getId());
                 editor.putString(MainActivity.PROFILE_PICTURE, "http://graph.facebook.com/" + profile.getId() + "/picture?type=large");
                 editor.putString(MainActivity.SOCIAL_NET, "Facebook");
                 editor.commit();
